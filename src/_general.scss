@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #e1e1e1;
+}
+
+.container {
+  max-width: 1326px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  width: 214px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 26px;
+}

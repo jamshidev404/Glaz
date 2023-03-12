@@ -1,0 +1,161 @@
+.candidate {
+  margin-bottom: 124px;
+  // .candidate__container
+
+  &__container {
+    @media (max-width: 638px) {
+      display: none;
+    }
+  }
+
+  &__title {
+    
+  }
+
+  // .candidate__cards
+
+  &__cards {
+    // display: flex;
+    // flex-wrap: wrap;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    
+  }
+
+  // .candidate__card
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 42px;
+    gap: 20px;
+    max-width: 300px;
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  // .candidate__name
+
+  &__name {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #111827;
+  }
+
+  // .candidate__profi
+
+  &__profi {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #979797;
+  }
+
+  // .candidate__experience
+
+  &__experience {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111827;
+    text-align: center;
+  }
+
+  // .candidate__salary
+
+  &__salary {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111827;
+    text-align: center;
+  }
+
+  // .candidate__btn
+
+  &__btn {
+    padding: 12px 22px;
+    width: 219px;
+    background: #f1df6f;
+    border-radius: 26px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    text-align: center;
+    cursor: pointer;
+    // margin-bottom: 28px;
+  }
+}
+.container {
+}
+.title {
+}
+.card {
+  // .card__top
+
+  &__top {
+    display: flex;
+    gap: 12px;
+  }
+}
+.mini {
+  // .mini__btn
+
+  &__btn {
+  }
+
+  // .mini__left
+
+  &__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    width: 86px;
+    height: 24px;
+    background: #fef3c7;
+    border-radius: 12px;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #92400e;
+  }
+
+  // .mini__right
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    width: 80px;
+    height: 24px;
+    background: #ede9fe;
+    border-radius: 12px;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #5b21b6;
+    margin-bottom: 20px;
+  }
+}
+.avatar {
+  // .avatar__img
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+
+  &__img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
